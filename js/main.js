@@ -1,5 +1,6 @@
 const requestUrl = 'https://github.com/SofyaPim/BootstrapProject1/data.html'
-
+const btn = $('.load-more');
+const loader = btn.find('span');
 function sendRequest(method, url, body = null) {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest;
@@ -27,9 +28,8 @@ function sendRequest(method, url, body = null) {
 }
 sendRequest('GET', requestUrl)
     .then(data => {
-        $('.load-more').on('click', function () {
-            const btn = $(this);
-            const loader = btn.find('span');
+        btn.on('click', function () {
+            
             btn.attr('disabled', true);
             loader.addClass('d-inline-block');
             setTimeout(function () {
