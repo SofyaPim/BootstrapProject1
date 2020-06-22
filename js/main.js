@@ -1,5 +1,5 @@
 "use strict";
-const requestUrl = "https://github.com/SofyaPim/BootstrapProject1/data.html";
+const requestUrl = "data.html";
 const btn = $(".load-more");
 const loader = btn.find("span");
 function sendRequest(method, url, body = null) {
