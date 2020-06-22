@@ -1,4 +1,4 @@
-const requestUrl = '../data.html'
+const requestUrl = 'https://github.com/SofyaPim/BootstrapProject1/data.html'
 
 function sendRequest(method, url, body = null) {
     return new Promise((resolve, reject) => {
