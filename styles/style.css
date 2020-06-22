@@ -30,7 +30,7 @@ p {
 
 .navbar-brand {
   font-family: 'Inconsolata', monospace;
-  font-style: 30px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -62,7 +62,7 @@ p {
 .post-category,
 .link-more {
   font-family: 'Ubuntu', sans-serif;
-  font-style: 14px;
+  font-size: 14px;
 }
 
 .grid-posts {
@@ -128,7 +128,7 @@ section .form-control input {
 footer {
   background-color: #e9e9db;
   padding: 7vh 0;
-  font-family: 'Bitstream Vera Serif Bold' serif;
+  font-family: 'Inconsolata' serif;
 }
 
 footer .fa-facebook {
