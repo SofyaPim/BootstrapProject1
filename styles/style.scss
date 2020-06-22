@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("/font-awesome-4.7.0/fonts/fontawesome-webfont.eot"),
+    url("/font-awesome-4.7.0/fonts/fontawesome-webfont.svg");
+  }
+body {
+    max-width: 100vw;
+    background-color: rgb(247, 247, 243);
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #68626b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #384e4e;
+}
+
+a:hover {
+    color: #525c5c;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Inconsolata', monospace;
+    font-style: 30px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    text-transform: uppercase;
+
+}
+
+.nav-item a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: rgba(129, 122, 122, 0.699);
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.nav-item a:hover::after {
+    transform: scale(1);
+
+}
+
+.slider {
+    margin-bottom: 9vh;
+}
+
+.post-category,
+.link-more {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: 14px;
+}
+
+.grid-posts {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+
+    .card {
+        border: 0;
+        margin-bottom: 3vh;
+    }
+
+    .card-body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .card-img-top {
+        max-height: 350px;
+        border-radius: 0;
+    }
+}
+
+.load-more {
+    padding: 1rem 2rem;
+
+    span {
+        display: none;
+
+
+    }
+}
+
+section {
+    background-color: rgb(233, 233, 219);
+    padding: 4vw 3vw;
+
+    h3 {
+        margin-bottom: 5vh;
+    }
+
+    .form-control {
+        border-radius: 0;
+        border: 0;
+        border-bottom: 1px solid rgb(82, 82, 79);
+        background-color: transparent;
+
+        input {
+            background-color: rgb(233, 233, 219);
+        }
+    }
+}
+
+.form-input {
+    position: relative;
+    background-color: rgb(233, 233, 219);
+
+    button {
+        position: absolute;
+        right: 0;
+        top: -5px;
+        font-size: 2em;
+    }
+}
+footer{
+    background-color: rgb(233, 233, 219);
+    padding: 7vh 0;
+    font-family: 'Bitstream Vera Serif Bold' serif;
+    .fa-facebook{
+        width: 20px;
+        height: 20px;
+    }
+    .footer-left a{
+        color:#000;
+
+        margin-right: 20px;
+    }
+    .footer-right a{
+        color:#626262;
+        
+        margin-left: 20px;
+    }
+}
+// @media only screen and (max-width: 1199px){
+//     .grid-posts {
+//         margin-bottom: 5vh;
+//         margin-top: 5vh;
+    
+//         .card {
+//             border: 0;
+//             margin-bottom: 3vh;
+//         }
+    
+//         .card-body {
+//             padding-right: 0;
+//             padding-left: 0;
+//         }
+    
+//         .card-img-top {
+//             max-height: 300px;
+//             border-radius: 0;
+//         }
+//     }
+// }
+// @media only screen and (max-width: 1199px)
+// font-family: ;
+// font-family: ;
+// font-family: ;
