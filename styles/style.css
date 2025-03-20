@@ -75,10 +75,7 @@ p {
   margin-bottom: 3vh;
 }
 
-.grid-posts .card-body {
-  padding-right: 0;
-  padding-left: 0;
-}
+
 
 .grid-posts .card-img-top {
   max-height: 350px;
